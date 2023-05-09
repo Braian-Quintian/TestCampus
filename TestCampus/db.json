@@ -1,0 +1,151 @@
+{
+  "usuarios": [
+    {
+      "identificacion": "1127939990",
+      "nombres": "Braian Alberto",
+      "apellidos": "Quintian Romero",
+      "telefono": "+573135342544",
+      "fechaNacimiento": "2004-02-09",
+      "ciudad": "Giron",
+      "pais": "Colombia",
+      "correo": "bquintianromero@gmail.com",
+      "id": 1
+    },
+    {
+      "identificacion": "3518645316",
+      "nombres": "Alma Marcela",
+      "apellidos": "Gozo",
+      "telefono": "452.54354",
+      "fechaNacimiento": "2004-07-29",
+      "ciudad": "Bucaramanga",
+      "pais": "Vene",
+      "correo": "bqiuwn@idahnsoi",
+      "id": 2
+    }
+  ],
+  "rutasAereas": [
+    {
+      "nombre": "1523154",
+      "ciudadOrigen": "Bucaramanga",
+      "ciudadDestino": "Bogota",
+      "millas": "10000",
+      "valorMillas": "100",
+      "id": 1
+    },
+    {
+      "nombre": "ALFA",
+      "ciudadOrigen": "Venecia",
+      "ciudadDestino": "Malga",
+      "millas": "54634",
+      "valorMillas": "2000",
+      "id": 2
+    },
+    {
+      "nombre": "asdq1",
+      "ciudadOrigen": "Giron",
+      "ciudadDestino": "Bogota",
+      "millas": "10000",
+      "valorMillas": "100",
+      "id": 3
+    },
+    {
+      "nombre": "Braian",
+      "ciudadOrigen": "Giron",
+      "ciudadDestino": "Cúcuta",
+      "millas": "3000",
+      "valorMillas": "200",
+      "id": 4
+    },
+    {
+      "nombre": "NUMERO 3",
+      "ciudadOrigen": "Armenia",
+      "ciudadDestino": "Cúcuta",
+      "millas": "3000",
+      "valorMillas": "200",
+      "id": 5
+    }
+  ],
+  "flotaAerea": [
+    {
+      "numeroAeronave": "123",
+      "cantidadPasajeros": "1000",
+      "fechaCompra": "2004-12-05",
+      "valorCompra": "231385",
+      "numeroMatricula": "AS51S65D",
+      "id": 1
+    },
+    {
+      "numeroAeronave": "5435",
+      "cantidadPasajeros": "5000",
+      "fechaCompra": "2011-04-23",
+      "valorCompra": "5678491",
+      "numeroMatricula": "AZTE123",
+      "id": 2
+    }
+  ],
+  "registroCompras": [
+    {
+      "cliente": {
+        "identificacion": "1127939990",
+        "nombres": "Braian Alberto",
+        "apellidos": "Quintian Romero",
+        "telefono": "+573135342544",
+        "fechaNacimiento": "2004-02-09",
+        "ciudad": "Giron",
+        "pais": "Colombia",
+        "correo": "bquintianromero@gmail.com",
+        "id": 1
+      },
+      "ciudadOrigen": "cucuta",
+      "ciudadDestino": "Armenia",
+      "fechaSalida": "4120-02-05",
+      "numeroPersonas": 1,
+      "numeroAdultos": 1,
+      "numeroNinos": 1,
+      "numeroMaletas": 1,
+      "id": 1
+    },
+    {
+      "cliente": {
+        "identificacion": "1127939990",
+        "nombres": "Braian Alberto",
+        "apellidos": "Quintian Romero",
+        "telefono": "+573135342544",
+        "fechaNacimiento": "2004-02-09",
+        "ciudad": "Giron",
+        "pais": "Colombia",
+        "correo": "bquintianromero@gmail.com",
+        "id": 1
+      },
+      "ciudadOrigen": "cucuta",
+      "ciudadDestino": "Armenia",
+      "fechaSalida": "2004-02-09",
+      "numeroPersonas": 1,
+      "numeroAdultos": 1,
+      "numeroNinos": 1,
+      "numeroMaletas": 1,
+      "id": 2
+    },
+    {
+      "cliente": {
+        "identificacion": "1127939990",
+        "nombres": "Braian Alberto",
+        "apellidos": "Quintian Romero",
+        "telefono": "+573135342544",
+        "fechaNacimiento": "2004-02-09",
+        "ciudad": "Giron",
+        "pais": "Colombia",
+        "correo": "bquintianromero@gmail.com",
+        "id": 1
+      },
+      "ciudadOrigen": "cucuta",
+      "ciudadDestino": "Armenia",
+      "fechaSalida": "2044-02-09",
+      "numeroPersonas": 1,
+      "numeroAdultos": 1,
+      "numeroNinos": 1,
+      "numeroMaletas": 1,
+      "id": 3
+    }
+  ]
+}
