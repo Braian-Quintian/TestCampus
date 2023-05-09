@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #013c69;
+    color: white;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Cuerpo */
+.cuerpo {
+    margin-top: 20px;
+}
+
+/* Formulario de registro */
+#clienteForm label {
+    display: block;
+    margin-top: 10px;
+}
+
+#clienteForm input[type="text"],
+#clienteForm input[type="date"],
+#clienteForm input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+#clienteForm button[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #013c69;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#clienteForm button[type="submit"]:hover {
+    background-color: #012d4f;
+}
+
+/* Tabla de clientes */
+#clientesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#clientesTable th,
+#clientesTable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#clientesTable th {
+    background-color: #013c69;
+    color: white;
+}
+
+/* Modal de edición */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+.modal h3 {
+    margin-top: 0;
+}
+
+/* Estilos adicionales */
+#buscarInput {
+    width: 200px;
+    margin-top: 10px;
+}
+
+button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #013c69;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #012d4f;
+}
