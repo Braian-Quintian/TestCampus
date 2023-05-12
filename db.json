@@ -21,6 +21,17 @@
       "pais": "Vene",
       "correo": "bqiuwn@idahnsoi",
       "id": 2
+    },
+    {
+      "identificacion": "83952000",
+      "nombres": "Rosmira",
+      "apellidos": "ROmero",
+      "telefono": "3148209768",
+      "fechaNacimiento": "1999-02-01",
+      "ciudad": "Mexico",
+      "pais": "Mexico",
+      "correo": "kjass@gmail.com",
+      "id": 3
     }
   ],
   "rutasAereas": [
@@ -104,48 +115,6 @@
       "numeroNinos": 1,
       "numeroMaletas": 1,
       "id": 1
-    },
-    {
-      "cliente": {
-        "identificacion": "1127939990",
-        "nombres": "Braian Alberto",
-        "apellidos": "Quintian Romero",
-        "telefono": "+573135342544",
-        "fechaNacimiento": "2004-02-09",
-        "ciudad": "Giron",
-        "pais": "Colombia",
-        "correo": "bquintianromero@gmail.com",
-        "id": 1
-      },
-      "ciudadOrigen": "cucuta",
-      "ciudadDestino": "Armenia",
-      "fechaSalida": "2004-02-09",
-      "numeroPersonas": 1,
-      "numeroAdultos": 1,
-      "numeroNinos": 1,
-      "numeroMaletas": 1,
-      "id": 2
-    },
-    {
-      "cliente": {
-        "identificacion": "1127939990",
-        "nombres": "Braian Alberto",
-        "apellidos": "Quintian Romero",
-        "telefono": "+573135342544",
-        "fechaNacimiento": "2004-02-09",
-        "ciudad": "Giron",
-        "pais": "Colombia",
-        "correo": "bquintianromero@gmail.com",
-        "id": 1
-      },
-      "ciudadOrigen": "cucuta",
-      "ciudadDestino": "Armenia",
-      "fechaSalida": "2044-02-09",
-      "numeroPersonas": 1,
-      "numeroAdultos": 1,
-      "numeroNinos": 1,
-      "numeroMaletas": 1,
-      "id": 3
     }
   ]
 }
