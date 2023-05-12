@@ -38,6 +38,7 @@
                 <form id="compraTicketForm">
                     <label for="numeroIdentificacion">Número de Identificación:</label>
                     <input type="text" id="numeroIdentificacion" required>
+                    <button type="button" id="verificarClienteBtn">Verificar Cliente</button>
 
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" required>
@@ -93,6 +94,30 @@
             </div>
         </div>
 
+        <div id="clienteRegistradoModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Cliente Registrado</h2>
+                <p>¡El cliente está registrado!</p>
+            </div>
+        </div>
+
+        <div id="clienteNoRegistradoModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Cliente No Registrado</h2>
+                <p>El cliente no está registrado. Por favor, complete los campos adicionales.</p>
+            </div>
+        </div>
+
+        <div id="carritoComprasModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Carrito de Compras</h2>
+                <ul id="carritoComprasList"></ul>
+                <p>Total a Pagar: <span id="totalPagarCarrito"></span></p>
+            </div>
+        </div>
     </body>
 
 </html>

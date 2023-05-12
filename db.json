@@ -82,5 +82,70 @@
       "numeroMatricula": "AZTE123",
       "id": 2
     }
+  ],
+  "registroCompras": [
+    {
+      "cliente": {
+        "identificacion": "1127939990",
+        "nombres": "Braian Alberto",
+        "apellidos": "Quintian Romero",
+        "telefono": "+573135342544",
+        "fechaNacimiento": "2004-02-09",
+        "ciudad": "Giron",
+        "pais": "Colombia",
+        "correo": "bquintianromero@gmail.com",
+        "id": 1
+      },
+      "ciudadOrigen": "cucuta",
+      "ciudadDestino": "Armenia",
+      "fechaSalida": "4120-02-05",
+      "numeroPersonas": 1,
+      "numeroAdultos": 1,
+      "numeroNinos": 1,
+      "numeroMaletas": 1,
+      "id": 1
+    },
+    {
+      "cliente": {
+        "identificacion": "1127939990",
+        "nombres": "Braian Alberto",
+        "apellidos": "Quintian Romero",
+        "telefono": "+573135342544",
+        "fechaNacimiento": "2004-02-09",
+        "ciudad": "Giron",
+        "pais": "Colombia",
+        "correo": "bquintianromero@gmail.com",
+        "id": 1
+      },
+      "ciudadOrigen": "cucuta",
+      "ciudadDestino": "Armenia",
+      "fechaSalida": "2004-02-09",
+      "numeroPersonas": 1,
+      "numeroAdultos": 1,
+      "numeroNinos": 1,
+      "numeroMaletas": 1,
+      "id": 2
+    },
+    {
+      "cliente": {
+        "identificacion": "1127939990",
+        "nombres": "Braian Alberto",
+        "apellidos": "Quintian Romero",
+        "telefono": "+573135342544",
+        "fechaNacimiento": "2004-02-09",
+        "ciudad": "Giron",
+        "pais": "Colombia",
+        "correo": "bquintianromero@gmail.com",
+        "id": 1
+      },
+      "ciudadOrigen": "cucuta",
+      "ciudadDestino": "Armenia",
+      "fechaSalida": "2044-02-09",
+      "numeroPersonas": 1,
+      "numeroAdultos": 1,
+      "numeroNinos": 1,
+      "numeroMaletas": 1,
+      "id": 3
+    }
   ]
 }

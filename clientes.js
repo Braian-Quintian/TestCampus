@@ -184,10 +184,8 @@ function actualizarCliente() {
     .then(response => response.json())
     .then(data => {
       console.log('Cliente actualizado:', data);
-
       // Actualizar la lista de clientes después de actualizar
       listarClientes();
-
       // Cerrar el modal de edición
       cancelarEdicion();
     })
